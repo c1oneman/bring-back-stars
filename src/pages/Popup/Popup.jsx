@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from '../../assets/img/logo.svg';
-import Greetings from '../../containers/Greetings/Greetings';
+
 import './Popup.css';
 
 const Popup = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h1 className="headingText">Bring back stars!</h1>
+      <div>
+        <img src={'icon-34.png'} alt="bring back amazon stars logos"></img>
+        <p className="text">bring back amazon stars.</p>
         <p>
-          Edit <code>src/pages/Popup/Popup.jsx</code> and save to reload.
+          made with <span className="heart">❤</span> by{' '}
+          <a href="https://github.com/c1oneman">Clay</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React!
-        </a>
-      </header>
+      </div>
+      <a
+        href="https://www.buymeacoffee.com/c1oneman"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="buy-me-a-coffee-button">
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+            alt="Buy me a coffee"
+            className="buy-me-a-coffee-button-img"
+          />
+          <p>Buy me a coffee</p>
+        </div>
+      </a>
     </div>
   );
 };

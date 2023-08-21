@@ -7,39 +7,33 @@
   text-align: center;
   height: 100%;
   padding: 10px;
-  background-color: #282c34;
-}
-
-.App-logo {
-  height: 30vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  height: 100%;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.buy-me-a-coffee-button {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #e9e9e9;
+  font-size: 14px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.buy-me-a-coffee-button-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text {
+  /* cute font family */
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 24px;
+  color: #000;
 }

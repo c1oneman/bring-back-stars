@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headingText {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
