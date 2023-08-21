@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Bring back stars",
+  "name": "Bring Back Stars - Amazon page tweak",
   "description": "A chrome extension to bring back stars on the popular shopping site, Amazon.",
   "action": {
     "default_popup": "popup.html",
